@@ -1,0 +1,48 @@
+body {
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    box-sizing: border-box;
+  }
+  
+   /* Total stock page css */
+  
+  .image {
+      height: 5px;
+      width: 5px;
+  }
+  .image img{
+      height:100px;
+      width: 200px;
+  }
+  
+  .header{
+      text-align: center;
+  }
+  .printbtn{
+    margin-top:20px;
+  }
+
+  .loginMsg2 {
+    height: 40px;
+    width: 416px;
+    background-color: green;
+    padding: 9px;
+    color: white;
+    margin-left: -1px;
+ }
+ .totalAmount p{
+    height: 36px;
+    width: 224px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 19px;
+    position: absolute;
+    margin-left: 563px;
+ }
+ .heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+ }
+  

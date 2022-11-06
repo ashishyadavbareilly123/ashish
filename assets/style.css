@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+/* Home page css */
+
+.upperHeader {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    padding-top: 5px;
+    padding-right: 11px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.upperHeader p{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.lowerHeader{
+    height: 85px;
+    width: auto;
+    /* background-color: whitesmoke; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Header css */
+
+.menu_item {
+    padding: 9px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.menu_item:hover {
+    background-color: green;
+    color: white;
+}
+.menu_item a:hover{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+   margin-right:40%;
+   padding-left: 10px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    margin-top: 80px;
+}
+.image img{
+    height: auto;
+    width: 355px;
+    margin-left: 90px;
+}
+.description{
+    margin-top:10px;
+}
+.description .title{
+    text-decoration: underline solid red 25%; 
+    font-weight: 700;
+    font-size: 20px;
+}
+.desc{
+    text-align: left;
+    font-size: 16px;
+    color: #444;
+}
+.button {
+    display: inline;
+    margin-top: 20px;
+    position: absolute;
+}
+.button .right{
+    margin-left:80px;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+

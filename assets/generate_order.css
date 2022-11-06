@@ -1,0 +1,23 @@
+form {
+    border: 3px solid green;
+    height:300px;
+  }
+  .container2{
+    margin-top:60px;
+    text-align:center;
+  }
+ .form-inline{
+    margin-top:30px;
+ } 
+ .heading{
+    color:green;
+ }
+
+ .loginMsg {
+    height: 40px;
+    width: 416px;
+    background-color: red;
+    padding: 9px;
+    color: white;
+    margin-left: -1px;
+}

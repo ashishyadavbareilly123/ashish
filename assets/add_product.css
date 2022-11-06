@@ -1,0 +1,14 @@
+body{
+    font-family: inherit;
+}
+.container{
+    margin-left: 411px;
+    height: 800px;
+    width: 936px;
+}
+h1{
+    text-align: center;
+    margin-right: 475px;
+    color: red;;
+}
+
